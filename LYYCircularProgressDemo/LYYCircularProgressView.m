@@ -43,8 +43,8 @@
         _progressLineWidth = 10;
         _progressColor = [UIColor greenColor];
         _intervalColor = [UIColor blackColor];
-        _initTotalTime = 600.0;
-        _interval = 1;
+        _initTotalTime = 10.0;
+        _interval = 0.1;
         self.progressLayer = [self createLayerWithCenter:self.progressCenter radius:self.progressRadius lineWidth:self.progressLineWidth color:self.progressColor strokeStart:0 strokeEnd:0];
         [self.layer addSublayer:self.progressLayer];
         [self.layerArray addObject:self.progressLayer];
